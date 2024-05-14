@@ -5,7 +5,7 @@ function ColorMode() {
 
   return (
     <div>
-      <HStack>
+      <HStack >
         <Switch colorScheme="teal" size="lg" onChange={toggleColorMode} />
         <Text> {colorMode === "light" ? "Dark" : "light"} Mode</Text>
       </HStack>
